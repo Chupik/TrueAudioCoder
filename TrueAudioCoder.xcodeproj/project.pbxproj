@@ -14,7 +14,6 @@
 		A119B87C1DCF9FDC00DD55CC /* TrueAudioCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119B87B1DCF9FDC00DD55CC /* TrueAudioCoderTests.swift */; };
 		A119B8871DCF9FF400DD55CC /* WavFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119B8861DCF9FF400DD55CC /* WavFile.swift */; };
 		A119B88C1DCFC1F800DD55CC /* AccelerateMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119B88B1DCFC1F800DD55CC /* AccelerateMath.swift */; };
-		A14FBEEB1DE07D7D00FD508D /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19283491DD0C0AF005AC668 /* Charts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,27 +23,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = A119B8651DCF9FDC00DD55CC;
 			remoteInfo = TrueAudioCoder;
-		};
-		A19283481DD0C0AF005AC668 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A19283421DD0C0AE005AC668 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F241D8110E600722320;
-			remoteInfo = Charts;
-		};
-		A192834A1DD0C0AF005AC668 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A19283421DD0C0AE005AC668 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06B120D51D811E6200D14B02;
-			remoteInfo = ChartsRealm;
-		};
-		A192834C1DD0C0AF005AC668 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A19283421DD0C0AE005AC668 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F2E1D8110E600722320;
-			remoteInfo = ChartsTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,7 +39,6 @@
 		A119B8861DCF9FF400DD55CC /* WavFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavFile.swift; sourceTree = "<group>"; };
 		A119B8891DCFB6F000DD55CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A119B88B1DCFC1F800DD55CC /* AccelerateMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerateMath.swift; sourceTree = "<group>"; };
-		A19283421DD0C0AE005AC668 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A14FBEEB1DE07D7D00FD508D /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +62,6 @@
 		A119B85D1DCF9FDC00DD55CC = {
 			isa = PBXGroup;
 			children = (
-				A19283421DD0C0AE005AC668 /* Charts.xcodeproj */,
 				A119B8681DCF9FDC00DD55CC /* TrueAudioCoder */,
 				A119B87A1DCF9FDC00DD55CC /* TrueAudioCoderTests */,
 				A119B8671DCF9FDC00DD55CC /* Products */,
@@ -132,16 +107,6 @@
 				A119B8891DCFB6F000DD55CC /* AVFoundation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A19283431DD0C0AE005AC668 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A19283491DD0C0AF005AC668 /* Charts.framework */,
-				A192834B1DD0C0AF005AC668 /* ChartsRealm.framework */,
-				A192834D1DD0C0AF005AC668 /* ChartsTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,12 +179,6 @@
 			mainGroup = A119B85D1DCF9FDC00DD55CC;
 			productRefGroup = A119B8671DCF9FDC00DD55CC /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A19283431DD0C0AE005AC668 /* Products */;
-					ProjectRef = A19283421DD0C0AE005AC668 /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A119B8651DCF9FDC00DD55CC /* TrueAudioCoder */,
@@ -227,30 +186,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A19283491DD0C0AF005AC668 /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = A19283481DD0C0AF005AC668 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A192834B1DD0C0AF005AC668 /* ChartsRealm.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ChartsRealm.framework;
-			remoteRef = A192834A1DD0C0AF005AC668 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A192834D1DD0C0AF005AC668 /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = A192834C1DD0C0AF005AC668 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A119B8641DCF9FDC00DD55CC /* Resources */ = {

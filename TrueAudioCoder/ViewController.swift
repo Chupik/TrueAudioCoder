@@ -8,7 +8,6 @@
 
 import Cocoa
 import AVFoundation
-import Charts
 
 class ViewController: NSViewController {
     
