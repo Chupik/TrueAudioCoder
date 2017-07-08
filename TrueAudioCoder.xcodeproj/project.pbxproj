@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A119B86A1DCF9FDC00DD55CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119B8691DCF9FDC00DD55CC /* AppDelegate.swift */; };
+		A119B86C1DCF9FDC00DD55CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119B86B1DCF9FDC00DD55CC /* ViewController.swift */; };
+		A119B86E1DCF9FDC00DD55CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A119B86D1DCF9FDC00DD55CC /* Assets.xcassets */; };
+		A119B8711DCF9FDC00DD55CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A119B86F1DCF9FDC00DD55CC /* Main.storyboard */; };
+		A119B87C1DCF9FDC00DD55CC /* TrueAudioCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119B87B1DCF9FDC00DD55CC /* TrueAudioCoderTests.swift */; };
+		A119B8871DCF9FF400DD55CC /* WavFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119B8861DCF9FF400DD55CC /* WavFile.swift */; };
+		A119B88C1DCFC1F800DD55CC /* AccelerateMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119B88B1DCFC1F800DD55CC /* AccelerateMath.swift */; };
+		A14FBEEB1DE07D7D00FD508D /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19283491DD0C0AF005AC668 /* Charts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A119B8781DCF9FDC00DD55CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A119B85E1DCF9FDC00DD55CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A119B8651DCF9FDC00DD55CC;
+			remoteInfo = TrueAudioCoder;
+		};
+		A19283481DD0C0AF005AC668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A19283421DD0C0AE005AC668 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		A192834A1DD0C0AF005AC668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A19283421DD0C0AE005AC668 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06B120D51D811E6200D14B02;
+			remoteInfo = ChartsRealm;
+		};
+		A192834C1DD0C0AF005AC668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A19283421DD0C0AE005AC668 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A119B8661DCF9FDC00DD55CC /* TrueAudioCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueAudioCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A119B8691DCF9FDC00DD55CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A119B86B1DCF9FDC00DD55CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A119B86D1DCF9FDC00DD55CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A119B8701DCF9FDC00DD55CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A119B8721DCF9FDC00DD55CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A119B8771DCF9FDC00DD55CC /* TrueAudioCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueAudioCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A119B87B1DCF9FDC00DD55CC /* TrueAudioCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueAudioCoderTests.swift; sourceTree = "<group>"; };
+		A119B87D1DCF9FDC00DD55CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A119B8861DCF9FF400DD55CC /* WavFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavFile.swift; sourceTree = "<group>"; };
+		A119B8891DCFB6F000DD55CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A119B88B1DCFC1F800DD55CC /* AccelerateMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerateMath.swift; sourceTree = "<group>"; };
+		A19283421DD0C0AE005AC668 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A119B8631DCF9FDC00DD55CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14FBEEB1DE07D7D00FD508D /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A119B8741DCF9FDC00DD55CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A119B85D1DCF9FDC00DD55CC = {
+			isa = PBXGroup;
+			children = (
+				A19283421DD0C0AE005AC668 /* Charts.xcodeproj */,
+				A119B8681DCF9FDC00DD55CC /* TrueAudioCoder */,
+				A119B87A1DCF9FDC00DD55CC /* TrueAudioCoderTests */,
+				A119B8671DCF9FDC00DD55CC /* Products */,
+				A119B8881DCFB6EF00DD55CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A119B8671DCF9FDC00DD55CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A119B8661DCF9FDC00DD55CC /* TrueAudioCoder.app */,
+				A119B8771DCF9FDC00DD55CC /* TrueAudioCoderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A119B8681DCF9FDC00DD55CC /* TrueAudioCoder */ = {
+			isa = PBXGroup;
+			children = (
+				A119B8691DCF9FDC00DD55CC /* AppDelegate.swift */,
+				A119B8861DCF9FF400DD55CC /* WavFile.swift */,
+				A119B88B1DCFC1F800DD55CC /* AccelerateMath.swift */,
+				A119B86B1DCF9FDC00DD55CC /* ViewController.swift */,
+				A119B86D1DCF9FDC00DD55CC /* Assets.xcassets */,
+				A119B86F1DCF9FDC00DD55CC /* Main.storyboard */,
+				A119B8721DCF9FDC00DD55CC /* Info.plist */,
+			);
+			path = TrueAudioCoder;
+			sourceTree = "<group>";
+		};
+		A119B87A1DCF9FDC00DD55CC /* TrueAudioCoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A119B87B1DCF9FDC00DD55CC /* TrueAudioCoderTests.swift */,
+				A119B87D1DCF9FDC00DD55CC /* Info.plist */,
+			);
+			path = TrueAudioCoderTests;
+			sourceTree = "<group>";
+		};
+		A119B8881DCFB6EF00DD55CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A119B8891DCFB6F000DD55CC /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A19283431DD0C0AE005AC668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19283491DD0C0AF005AC668 /* Charts.framework */,
+				A192834B1DD0C0AF005AC668 /* ChartsRealm.framework */,
+				A192834D1DD0C0AF005AC668 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A119B8651DCF9FDC00DD55CC /* TrueAudioCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A119B8801DCF9FDC00DD55CC /* Build configuration list for PBXNativeTarget "TrueAudioCoder" */;
+			buildPhases = (
+				A119B8621DCF9FDC00DD55CC /* Sources */,
+				A119B8631DCF9FDC00DD55CC /* Frameworks */,
+				A119B8641DCF9FDC00DD55CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueAudioCoder;
+			productName = TrueAudioCoder;
+			productReference = A119B8661DCF9FDC00DD55CC /* TrueAudioCoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A119B8761DCF9FDC00DD55CC /* TrueAudioCoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A119B8831DCF9FDC00DD55CC /* Build configuration list for PBXNativeTarget "TrueAudioCoderTests" */;
+			buildPhases = (
+				A119B8731DCF9FDC00DD55CC /* Sources */,
+				A119B8741DCF9FDC00DD55CC /* Frameworks */,
+				A119B8751DCF9FDC00DD55CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A119B8791DCF9FDC00DD55CC /* PBXTargetDependency */,
+			);
+			name = TrueAudioCoderTests;
+			productName = TrueAudioCoderTests;
+			productReference = A119B8771DCF9FDC00DD55CC /* TrueAudioCoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A119B85E1DCF9FDC00DD55CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Alexander Kochupalov";
+				TargetAttributes = {
+					A119B8651DCF9FDC00DD55CC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A119B8761DCF9FDC00DD55CC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A119B8651DCF9FDC00DD55CC;
+					};
+				};
+			};
+			buildConfigurationList = A119B8611DCF9FDC00DD55CC /* Build configuration list for PBXProject "TrueAudioCoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A119B85D1DCF9FDC00DD55CC;
+			productRefGroup = A119B8671DCF9FDC00DD55CC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A19283431DD0C0AE005AC668 /* Products */;
+					ProjectRef = A19283421DD0C0AE005AC668 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A119B8651DCF9FDC00DD55CC /* TrueAudioCoder */,
+				A119B8761DCF9FDC00DD55CC /* TrueAudioCoderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A19283491DD0C0AF005AC668 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = A19283481DD0C0AF005AC668 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A192834B1DD0C0AF005AC668 /* ChartsRealm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChartsRealm.framework;
+			remoteRef = A192834A1DD0C0AF005AC668 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A192834D1DD0C0AF005AC668 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = A192834C1DD0C0AF005AC668 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A119B8641DCF9FDC00DD55CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A119B86E1DCF9FDC00DD55CC /* Assets.xcassets in Resources */,
+				A119B8711DCF9FDC00DD55CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A119B8751DCF9FDC00DD55CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A119B8621DCF9FDC00DD55CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A119B8871DCF9FF400DD55CC /* WavFile.swift in Sources */,
+				A119B86C1DCF9FDC00DD55CC /* ViewController.swift in Sources */,
+				A119B88C1DCFC1F800DD55CC /* AccelerateMath.swift in Sources */,
+				A119B86A1DCF9FDC00DD55CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A119B8731DCF9FDC00DD55CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A119B87C1DCF9FDC00DD55CC /* TrueAudioCoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A119B8791DCF9FDC00DD55CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A119B8651DCF9FDC00DD55CC /* TrueAudioCoder */;
+			targetProxy = A119B8781DCF9FDC00DD55CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A119B86F1DCF9FDC00DD55CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A119B8701DCF9FDC00DD55CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A119B87E1DCF9FDC00DD55CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A119B87F1DCF9FDC00DD55CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A119B8811DCF9FDC00DD55CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrueAudioCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chupik.TrueAudioCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A119B8821DCF9FDC00DD55CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrueAudioCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chupik.TrueAudioCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A119B8841DCF9FDC00DD55CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrueAudioCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chupik.TrueAudioCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueAudioCoder.app/Contents/MacOS/TrueAudioCoder";
+			};
+			name = Debug;
+		};
+		A119B8851DCF9FDC00DD55CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrueAudioCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chupik.TrueAudioCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueAudioCoder.app/Contents/MacOS/TrueAudioCoder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A119B8611DCF9FDC00DD55CC /* Build configuration list for PBXProject "TrueAudioCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A119B87E1DCF9FDC00DD55CC /* Debug */,
+				A119B87F1DCF9FDC00DD55CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A119B8801DCF9FDC00DD55CC /* Build configuration list for PBXNativeTarget "TrueAudioCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A119B8811DCF9FDC00DD55CC /* Debug */,
+				A119B8821DCF9FDC00DD55CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A119B8831DCF9FDC00DD55CC /* Build configuration list for PBXNativeTarget "TrueAudioCoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A119B8841DCF9FDC00DD55CC /* Debug */,
+				A119B8851DCF9FDC00DD55CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A119B85E1DCF9FDC00DD55CC /* Project object */;
+}
